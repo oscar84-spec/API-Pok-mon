@@ -1,0 +1,189 @@
+*,
+::before,
+::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #0d1f2d;
+}
+.title {
+  width: max-content;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-size: 2rem;
+  color: #ffe0c8;
+}
+.name__application {
+  font-size: 1rem;
+  color: #4a9d9c;
+}
+
+.card {
+  width: max-content;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  font-size: 1.2rem;
+  color: #afffff;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-text {
+  width: 100%;
+  border: none;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  background: #354656;
+  color: #ffe0c8;
+}
+.buttonSearch {
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #0d6e6e;
+  color: #ffe0c8;
+  cursor: pointer;
+}
+.show {
+  margin-top: 10px;
+}
+.nameId {
+  font-size: 1.3rem;
+  color: #ffe0c8;
+}
+.weightHeight {
+  font-size: 1.2rem;
+  color: #0d6e6e;
+}
+.img {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 150px;
+  }
+}
+.tags {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.element {
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #0d1f2d;
+}
+.normal {
+  background-color: #b7b7aa;
+}
+
+.fire {
+  background-color: #ff6f52;
+}
+
+.water {
+  background-color: #42a1ff;
+}
+
+.electric {
+  background-color: #fecc33;
+}
+
+.grass {
+  background-color: #78cc55;
+}
+
+.ice {
+  background-color: #66ccfe;
+}
+
+.fighting {
+  background-color: #d3887e;
+}
+
+.poison {
+  background-color: #c68bb7;
+}
+
+.ground {
+  background-color: #dfba52;
+}
+
+.flying {
+  background-color: #8899ff;
+}
+
+.psychic {
+  background-color: #ff66a3;
+}
+
+.bug {
+  background-color: #aabb23;
+}
+
+.rock {
+  background-color: #baaa66;
+}
+
+.ghost {
+  background-color: #9995d0;
+}
+
+.dragon {
+  background-color: #9e93f1;
+}
+
+.dark {
+  background-color: #b59682;
+}
+
+.steel {
+  background-color: #abaabb;
+}
+
+.fairy {
+  background-color: #ed99ed;
+}
+
+.card__stats {
+  margin: 20px auto;
+  width: 270px;
+}
+table {
+  background-color: #0d6e6e;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  color: #afffff;
+}
+tr {
+  border-bottom: 5px solid #0d1f2d;
+}
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+th:nth-child(even),
+td:nth-child(even) {
+  border-left: 5px solid #0d1f2d;
+}
